@@ -65,3 +65,6 @@
   - Optional Fields:
     - These fields are nice to haves and can be implemented next.
     - In case the parser failed to find the respective value the csv output can have `null` value and will be handled in our side.
+
+  - Line Items:
+    - We have items in the database that the customer has ordered and we have columns for additional costs and shipping & handling fee. In invoices there will be line items like `dry/wet ice`, `kuhlversand`, `shipping and handling cost`. These generally don't have SKU/article number (sometimes they do e.g. `ship2`). Can we get these items as an additional cost and shipping&handling cost? To make life easier it is possible for us to provide a set of SKUs which are to be searched for in the line items. 
