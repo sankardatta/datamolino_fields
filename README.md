@@ -45,13 +45,13 @@
     1. Total
     1. Tax Rate
     1. Tax Value
-
-  * Optional
-
     1. SKU
       - Other Names:
         - Article Number
         - Catalog Number
+
+  * Optional
+
     1. Batch Number
     1. Notes
     1. List Price
